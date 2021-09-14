@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > hawk > hoek:
+        patched: '2021-09-14T21:36:57.988Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > hawk > boom > hoek:
+        patched: '2021-09-14T21:36:57.988Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > hawk > sntp > hoek:
+        patched: '2021-09-14T21:36:57.988Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-14T21:36:57.988Z'
+  'npm:request:20160119':
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request:
+        patched: '2021-09-14T21:36:57.988Z'
+  'npm:tough-cookie:20170905':
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > tough-cookie:
+        patched: '2021-09-14T21:36:57.988Z'
+  'npm:tunnel-agent:20170305':
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2021-09-14T21:36:57.988Z'
+  'npm:uglify-js:20151024':
+    - browserify > umd > ruglify > uglify-js:
+        patched: '2021-09-14T21:36:57.988Z'
+    - grunt-browserify > browserify > umd > ruglify > uglify-js:
+        patched: '2021-09-14T21:36:57.988Z'
+    - grunt-browserify > watchify > browserify > umd > ruglify > uglify-js:
+        patched: '2021-09-14T21:36:57.988Z'
+    - grunt-browserify > browserify > umd > uglify-js:
+        patched: '2021-09-14T21:36:57.988Z'
+    - grunt-browserify > watchify > browserify > umd > uglify-js:
+        patched: '2021-09-14T21:36:57.988Z'
